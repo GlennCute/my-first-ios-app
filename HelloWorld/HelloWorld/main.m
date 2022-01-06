@@ -7,6 +7,10 @@
 
 #import <Foundation/Foundation.h>
 
+-(void)printHelloWorld {
+    
+}
+}
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
@@ -14,4 +18,8 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%@", newObjectString);
     }
     return 0;
+}
+
+-(void)printHelloWorld {
+    NSString *newObjectString
 }

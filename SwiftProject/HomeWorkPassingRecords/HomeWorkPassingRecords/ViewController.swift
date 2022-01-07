@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         let controller = storyboard?.instantiateViewController(withIdentifier: "SecondVC") as! SecondViewController
         
         
-        controller.text = labelName.text
+        controller.text =  labelName.text
         
         
         controller.modalPresentationStyle = .fullScreen

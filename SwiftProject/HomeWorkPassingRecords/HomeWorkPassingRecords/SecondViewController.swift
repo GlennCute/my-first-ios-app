@@ -18,7 +18,7 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
 
         if text != nil {
-            labelOutput.text = text
+            labelOutput.text=text
         }
     
     }

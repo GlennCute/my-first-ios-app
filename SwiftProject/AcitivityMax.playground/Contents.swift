@@ -26,7 +26,7 @@ func getOddNumbers(withMax max: Int) -> Array<Int> {
     return Array(0...max).compactMap { $0 % 2 != 0 ? $0 : nil }
         }
     
-    let max: Int = 10
+    let max: Int = 150
 let oddNumbers = getOddNumbers(withMax: max)
-print("Final Oddnumbers from 0 to \(max) are : \(oddNumbers)")
+print("Array of Oddnumbers from 0 to \(max) are : \(oddNumbers)")
 

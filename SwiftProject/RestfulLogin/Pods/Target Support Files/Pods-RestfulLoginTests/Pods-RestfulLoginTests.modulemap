@@ -1,0 +1,6 @@
+framework module Pods_RestfulLoginTests {
+  umbrella header "Pods-RestfulLoginTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

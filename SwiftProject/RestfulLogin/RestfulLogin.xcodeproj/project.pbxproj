@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		038532A5447A5823DAC59339 /* Pods_RestfulLogin_RestfulLoginUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FA286808B7AFEDBCC5FBF9 /* Pods_RestfulLogin_RestfulLoginUITests.framework */; };
+		5B246252278FB39F004240E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B246251278FB39F004240E6 /* AppDelegate.swift */; };
+		5B246254278FB39F004240E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B246253278FB39F004240E6 /* SceneDelegate.swift */; };
+		5B246256278FB39F004240E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B246255278FB39F004240E6 /* ViewController.swift */; };
+		5B246259278FB39F004240E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B246257278FB39F004240E6 /* Main.storyboard */; };
+		5B24625B278FB3A1004240E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B24625A278FB3A1004240E6 /* Assets.xcassets */; };
+		5B24625E278FB3A1004240E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B24625C278FB3A1004240E6 /* LaunchScreen.storyboard */; };
+		5B246269278FB3A2004240E6 /* RestfulLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B246268278FB3A2004240E6 /* RestfulLoginTests.swift */; };
+		5B246273278FB3A2004240E6 /* RestfulLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B246272278FB3A2004240E6 /* RestfulLoginUITests.swift */; };
+		5B246275278FB3A2004240E6 /* RestfulLoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B246274278FB3A2004240E6 /* RestfulLoginUITestsLaunchTests.swift */; };
+		5B24628527910676004240E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B24628427910676004240E6 /* GoogleService-Info.plist */; };
+		8ECB2FF411D6E84EFEE42058 /* Pods_RestfulLoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A44EE732ED55D744B561C10 /* Pods_RestfulLoginTests.framework */; };
+		B41E8CB18674401FA7E42617 /* Pods_RestfulLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FF7E2D2665F413455B2031 /* Pods_RestfulLogin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B246265278FB3A2004240E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B246246278FB39F004240E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B24624D278FB39F004240E6;
+			remoteInfo = RestfulLogin;
+		};
+		5B24626F278FB3A2004240E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B246246278FB39F004240E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B24624D278FB39F004240E6;
+			remoteInfo = RestfulLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C99840E1A622CB308864C5 /* Pods-RestfulLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestfulLogin.debug.xcconfig"; path = "Target Support Files/Pods-RestfulLogin/Pods-RestfulLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		29B93F26850B687018C904E8 /* Pods-RestfulLogin-RestfulLoginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestfulLogin-RestfulLoginUITests.release.xcconfig"; path = "Target Support Files/Pods-RestfulLogin-RestfulLoginUITests/Pods-RestfulLogin-RestfulLoginUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A44EE732ED55D744B561C10 /* Pods_RestfulLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestfulLoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B24624E278FB39F004240E6 /* RestfulLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestfulLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B246251278FB39F004240E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B246253278FB39F004240E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5B246255278FB39F004240E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B246258278FB39F004240E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B24625A278FB3A1004240E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B24625D278FB3A1004240E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B24625F278FB3A1004240E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B246264278FB3A2004240E6 /* RestfulLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestfulLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B246268278FB3A2004240E6 /* RestfulLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestfulLoginTests.swift; sourceTree = "<group>"; };
+		5B24626E278FB3A2004240E6 /* RestfulLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestfulLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B246272278FB3A2004240E6 /* RestfulLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestfulLoginUITests.swift; sourceTree = "<group>"; };
+		5B246274278FB3A2004240E6 /* RestfulLoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestfulLoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B24628427910676004240E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		67D1F197D06858152CC44448 /* Pods-RestfulLogin-RestfulLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestfulLogin-RestfulLoginUITests.debug.xcconfig"; path = "Target Support Files/Pods-RestfulLogin-RestfulLoginUITests/Pods-RestfulLogin-RestfulLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		705C7CC199AD6E350B7933E0 /* Pods-RestfulLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestfulLoginTests.debug.xcconfig"; path = "Target Support Files/Pods-RestfulLoginTests/Pods-RestfulLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		79FF7E2D2665F413455B2031 /* Pods_RestfulLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestfulLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15BFCF3398ABE046A6D6FCB /* Pods-RestfulLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestfulLogin.release.xcconfig"; path = "Target Support Files/Pods-RestfulLogin/Pods-RestfulLogin.release.xcconfig"; sourceTree = "<group>"; };
+		D0FA286808B7AFEDBCC5FBF9 /* Pods_RestfulLogin_RestfulLoginUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestfulLogin_RestfulLoginUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5267CAF09124D3F062AA1A /* Pods-RestfulLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestfulLoginTests.release.xcconfig"; path = "Target Support Files/Pods-RestfulLoginTests/Pods-RestfulLoginTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B24624B278FB39F004240E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41E8CB18674401FA7E42617 /* Pods_RestfulLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B246261278FB3A2004240E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECB2FF411D6E84EFEE42058 /* Pods_RestfulLoginTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B24626B278FB3A2004240E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038532A5447A5823DAC59339 /* Pods_RestfulLogin_RestfulLoginUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B246245278FB39F004240E6 = {
+			isa = PBXGroup;
+			children = (
+				5B246250278FB39F004240E6 /* RestfulLogin */,
+				5B246267278FB3A2004240E6 /* RestfulLoginTests */,
+				5B246271278FB3A2004240E6 /* RestfulLoginUITests */,
+				5B24624F278FB39F004240E6 /* Products */,
+				FC8F1A672859BCCF03C49A90 /* Pods */,
+				F9CE7A4367E5786EC6159B0D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B24624F278FB39F004240E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B24624E278FB39F004240E6 /* RestfulLogin.app */,
+				5B246264278FB3A2004240E6 /* RestfulLoginTests.xctest */,
+				5B24626E278FB3A2004240E6 /* RestfulLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B246250278FB39F004240E6 /* RestfulLogin */ = {
+			isa = PBXGroup;
+			children = (
+				5B246281278FB3B2004240E6 /* Controllers */,
+				5B246282278FB3BB004240E6 /* Models */,
+				5B246283278FB3C1004240E6 /* Views */,
+				5B246251278FB39F004240E6 /* AppDelegate.swift */,
+				5B246253278FB39F004240E6 /* SceneDelegate.swift */,
+				5B24625A278FB3A1004240E6 /* Assets.xcassets */,
+				5B24625F278FB3A1004240E6 /* Info.plist */,
+				5B24628427910676004240E6 /* GoogleService-Info.plist */,
+			);
+			path = RestfulLogin;
+			sourceTree = "<group>";
+		};
+		5B246267278FB3A2004240E6 /* RestfulLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B246268278FB3A2004240E6 /* RestfulLoginTests.swift */,
+			);
+			path = RestfulLoginTests;
+			sourceTree = "<group>";
+		};
+		5B246271278FB3A2004240E6 /* RestfulLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B246272278FB3A2004240E6 /* RestfulLoginUITests.swift */,
+				5B246274278FB3A2004240E6 /* RestfulLoginUITestsLaunchTests.swift */,
+			);
+			path = RestfulLoginUITests;
+			sourceTree = "<group>";
+		};
+		5B246281278FB3B2004240E6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B246255278FB39F004240E6 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5B246282278FB3BB004240E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5B246283278FB3C1004240E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B246257278FB39F004240E6 /* Main.storyboard */,
+				5B24625C278FB3A1004240E6 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F9CE7A4367E5786EC6159B0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79FF7E2D2665F413455B2031 /* Pods_RestfulLogin.framework */,
+				D0FA286808B7AFEDBCC5FBF9 /* Pods_RestfulLogin_RestfulLoginUITests.framework */,
+				5A44EE732ED55D744B561C10 /* Pods_RestfulLoginTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC8F1A672859BCCF03C49A90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04C99840E1A622CB308864C5 /* Pods-RestfulLogin.debug.xcconfig */,
+				A15BFCF3398ABE046A6D6FCB /* Pods-RestfulLogin.release.xcconfig */,
+				67D1F197D06858152CC44448 /* Pods-RestfulLogin-RestfulLoginUITests.debug.xcconfig */,
+				29B93F26850B687018C904E8 /* Pods-RestfulLogin-RestfulLoginUITests.release.xcconfig */,
+				705C7CC199AD6E350B7933E0 /* Pods-RestfulLoginTests.debug.xcconfig */,
+				DE5267CAF09124D3F062AA1A /* Pods-RestfulLoginTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B24624D278FB39F004240E6 /* RestfulLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B246278278FB3A2004240E6 /* Build configuration list for PBXNativeTarget "RestfulLogin" */;
+			buildPhases = (
+				5BD93B50F4C4FF020A7A8DED /* [CP] Check Pods Manifest.lock */,
+				5B24624A278FB39F004240E6 /* Sources */,
+				5B24624B278FB39F004240E6 /* Frameworks */,
+				5B24624C278FB39F004240E6 /* Resources */,
+				DDA3ED1F274FE43D97109815 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestfulLogin;
+			productName = RestfulLogin;
+			productReference = 5B24624E278FB39F004240E6 /* RestfulLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B246263278FB3A2004240E6 /* RestfulLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B24627B278FB3A2004240E6 /* Build configuration list for PBXNativeTarget "RestfulLoginTests" */;
+			buildPhases = (
+				67F2D1E34DED65796E95A53C /* [CP] Check Pods Manifest.lock */,
+				5B246260278FB3A2004240E6 /* Sources */,
+				5B246261278FB3A2004240E6 /* Frameworks */,
+				5B246262278FB3A2004240E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B246266278FB3A2004240E6 /* PBXTargetDependency */,
+			);
+			name = RestfulLoginTests;
+			productName = RestfulLoginTests;
+			productReference = 5B246264278FB3A2004240E6 /* RestfulLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B24626D278FB3A2004240E6 /* RestfulLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B24627E278FB3A2004240E6 /* Build configuration list for PBXNativeTarget "RestfulLoginUITests" */;
+			buildPhases = (
+				CECC18B6ABE5E42B9561004E /* [CP] Check Pods Manifest.lock */,
+				5B24626A278FB3A2004240E6 /* Sources */,
+				5B24626B278FB3A2004240E6 /* Frameworks */,
+				5B24626C278FB3A2004240E6 /* Resources */,
+				4E6814F6FCD50DFA8C888542 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B246270278FB3A2004240E6 /* PBXTargetDependency */,
+			);
+			name = RestfulLoginUITests;
+			productName = RestfulLoginUITests;
+			productReference = 5B24626E278FB3A2004240E6 /* RestfulLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B246246278FB39F004240E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5B24624D278FB39F004240E6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5B246263278FB3A2004240E6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5B24624D278FB39F004240E6;
+					};
+					5B24626D278FB3A2004240E6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5B24624D278FB39F004240E6;
+					};
+				};
+			};
+			buildConfigurationList = 5B246249278FB39F004240E6 /* Build configuration list for PBXProject "RestfulLogin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B246245278FB39F004240E6;
+			productRefGroup = 5B24624F278FB39F004240E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B24624D278FB39F004240E6 /* RestfulLogin */,
+				5B246263278FB3A2004240E6 /* RestfulLoginTests */,
+				5B24626D278FB3A2004240E6 /* RestfulLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B24624C278FB39F004240E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B24625E278FB3A1004240E6 /* LaunchScreen.storyboard in Resources */,
+				5B24628527910676004240E6 /* GoogleService-Info.plist in Resources */,
+				5B24625B278FB3A1004240E6 /* Assets.xcassets in Resources */,
+				5B246259278FB39F004240E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B246262278FB3A2004240E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B24626C278FB3A2004240E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E6814F6FCD50DFA8C888542 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RestfulLogin-RestfulLoginUITests/Pods-RestfulLogin-RestfulLoginUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RestfulLogin-RestfulLoginUITests/Pods-RestfulLogin-RestfulLoginUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RestfulLogin-RestfulLoginUITests/Pods-RestfulLogin-RestfulLoginUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BD93B50F4C4FF020A7A8DED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RestfulLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67F2D1E34DED65796E95A53C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RestfulLoginTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CECC18B6ABE5E42B9561004E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RestfulLogin-RestfulLoginUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDA3ED1F274FE43D97109815 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RestfulLogin/Pods-RestfulLogin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RestfulLogin/Pods-RestfulLogin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RestfulLogin/Pods-RestfulLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B24624A278FB39F004240E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B246256278FB39F004240E6 /* ViewController.swift in Sources */,
+				5B246252278FB39F004240E6 /* AppDelegate.swift in Sources */,
+				5B246254278FB39F004240E6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B246260278FB3A2004240E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B246269278FB3A2004240E6 /* RestfulLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B24626A278FB3A2004240E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B246275278FB3A2004240E6 /* RestfulLoginUITestsLaunchTests.swift in Sources */,
+				5B246273278FB3A2004240E6 /* RestfulLoginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B246266278FB3A2004240E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B24624D278FB39F004240E6 /* RestfulLogin */;
+			targetProxy = 5B246265278FB3A2004240E6 /* PBXContainerItemProxy */;
+		};
+		5B246270278FB3A2004240E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B24624D278FB39F004240E6 /* RestfulLogin */;
+			targetProxy = 5B24626F278FB3A2004240E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B246257278FB39F004240E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B246258278FB39F004240E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B24625C278FB3A1004240E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B24625D278FB3A1004240E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B246276278FB3A2004240E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B246277278FB3A2004240E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B246279278FB3A2004240E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04C99840E1A622CB308864C5 /* Pods-RestfulLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RestfulLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.RestfulLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B24627A278FB3A2004240E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A15BFCF3398ABE046A6D6FCB /* Pods-RestfulLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RestfulLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.RestfulLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B24627C278FB3A2004240E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705C7CC199AD6E350B7933E0 /* Pods-RestfulLoginTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.RestfulLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestfulLogin.app/RestfulLogin";
+			};
+			name = Debug;
+		};
+		5B24627D278FB3A2004240E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE5267CAF09124D3F062AA1A /* Pods-RestfulLoginTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.RestfulLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestfulLogin.app/RestfulLogin";
+			};
+			name = Release;
+		};
+		5B24627F278FB3A2004240E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D1F197D06858152CC44448 /* Pods-RestfulLogin-RestfulLoginUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.RestfulLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RestfulLogin;
+			};
+			name = Debug;
+		};
+		5B246280278FB3A2004240E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29B93F26850B687018C904E8 /* Pods-RestfulLogin-RestfulLoginUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.RestfulLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RestfulLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B246249278FB39F004240E6 /* Build configuration list for PBXProject "RestfulLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B246276278FB3A2004240E6 /* Debug */,
+				5B246277278FB3A2004240E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B246278278FB3A2004240E6 /* Build configuration list for PBXNativeTarget "RestfulLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B246279278FB3A2004240E6 /* Debug */,
+				5B24627A278FB3A2004240E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B24627B278FB3A2004240E6 /* Build configuration list for PBXNativeTarget "RestfulLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B24627C278FB3A2004240E6 /* Debug */,
+				5B24627D278FB3A2004240E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B24627E278FB3A2004240E6 /* Build configuration list for PBXNativeTarget "RestfulLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B24627F278FB3A2004240E6 /* Debug */,
+				5B246280278FB3A2004240E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B246246278FB39F004240E6 /* Project object */;
+}
